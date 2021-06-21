@@ -1,0 +1,27 @@
+/* Custom Properties */
+:root {
+    --primary: #5C2783;
+    --secondary: #0097A7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8rem;
+}
+/* 62.5% = 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; 
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: var(--fuente-principal);
+    color: var(--primary);
+}
+
+.titulo span {
+    font-size: 2rem;
+}
