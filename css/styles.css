@@ -1,5 +1,7 @@
 /* Custom Properties */
 :root {
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
     --primary: #5C2783;
     --secondary: #0097A7;
     --gris: #757575;
@@ -36,5 +38,10 @@ body {
 }
 
 .navegacion-principal {
-    
+    padding: 1rem;
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
 }
