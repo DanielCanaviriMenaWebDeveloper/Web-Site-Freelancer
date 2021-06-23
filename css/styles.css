@@ -54,3 +54,30 @@ body {
     background-color: var(--primary);
     color:var(--blanco);
 }
+
+/* De 480px para adelante se aplica el código css definido dentro el Media Query */
+@media (min-width: 480px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color:cornflowerblue;
+    }
+}
+
+/* COMO CREAR SNIPPETS
+    - Ctrl+shift+p 
+    - Preferences: Configure User Snippets
+    - css.json
+    Sintaxis para crear un Snippets: 
+        "Crear un Media Querie": {
+                "prefix" : "mq",
+                "body" : "@media (min-width: $1) {\n    $2\n}"
+        }
+*/
+@media (min-width: ) {
+    
+}
