@@ -65,6 +65,13 @@ body {
     color:var(--blanco);
 }
 
+/* Section Hero */
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* MEDIA QUERIES - EJEMPLOS */
 
