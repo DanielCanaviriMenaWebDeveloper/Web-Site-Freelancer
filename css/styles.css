@@ -11,6 +11,8 @@
     --titulo-3: 1.8rem
 }
 /* 62.5% = 1rem = 10px */
+
+/* GLOBALES */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -23,30 +25,10 @@ html {
 body {
     font-size: 16px; 
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--secondary) 0%, var(--blanco) 100%);
 }
 
-h1 {
-    font-size: var(--titulo-1);
-}
-
-h2 {
-    font-size: var(--titulo-2);
-}
-
-h3 {
-    font-size: var(--titulo-3);
-}
-
-h1, h2, h3 {
-    text-align: center;
-    color: var(--primary);
-}
-
-.titulo span {
-    font-size: 2rem;
-}
-
-.contenedor {
+.container {
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -71,6 +53,30 @@ h1, h2, h3 {
     }
 }
 
+/* TI´POGRAFIA */
+h1 {
+    font-size: var(--titulo-1);
+}
+
+h2 {
+    font-size: var(--titulo-2);
+}
+
+h3 {
+    font-size: var(--titulo-3);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--primary);
+}
+
+/* TITULOS */
+.titulo span {
+    font-size: 2rem;
+}
+
+/* NAVEGACIÓN PRINCIPAL */
 .nav-bg {
     background-color: var(--secondary);
 }
@@ -103,7 +109,7 @@ h1, h2, h3 {
     color:var(--blanco);
 }
 
-/* Section Hero */
+/* HERO  */
 .hero {
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
@@ -132,7 +138,7 @@ h1, h2, h3 {
     color: var(--blanco);
 }
 
-.ubicacion {
+.contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
 }
