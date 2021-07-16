@@ -12,10 +12,25 @@
 }
 /* 62.5% = 1rem = 10px */
 
+
+
 /* GLOBALES */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+/*  Croll Snap*/
+main,
+header {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+header, .formulario {
+    scroll-snap-align: center;
+
 }
 
 *, *:before, *:after {
@@ -108,6 +123,7 @@ h1, h2, h3 {
 .alinear-derecha {
     justify-content: flex-end;
 }
+
 /* NAVEGACIÓN PRINCIPAL */
 .nav-bg {
     background-color: var(--secondary);
