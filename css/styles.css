@@ -265,7 +265,7 @@ h1, h2, h3 {
 }
 
 .campo label {
-    color: var(--blanco);
+    color: var(--primary);
     font-weight: bold;
     display: block;
     margin-bottom: .5rem;
